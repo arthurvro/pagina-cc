@@ -1,6 +1,6 @@
-import './Header.css';
+import './HeaderBE.css';
 
-const Header = () => {
+export const HeaderBE = () => {
 
     return (
         <div className='div-central'>
@@ -8,5 +8,3 @@ const Header = () => {
         </div>
     );
 }
-
-export default Header;

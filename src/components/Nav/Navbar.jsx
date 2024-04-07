@@ -2,7 +2,7 @@ import React from 'react';
 import { PageIcon } from '../Assets/headerIcon';
 import './Navbar.css';
 
-function Navbar() {
+export function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -20,5 +20,3 @@ function Navbar() {
     </nav>
   );
 }
-
-export default Navbar;
