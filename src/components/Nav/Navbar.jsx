@@ -1,12 +1,14 @@
 import React from 'react';
-import './Navbar.css'; // Importe o arquivo de estilos da Navbar
+import { PageIcon } from '../Assets/headerIcon';
+import './Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src="/logo.svg" alt="Logo" />
+          <PageIcon/>
+          <a className='loginho'>ViteJS</a>
         </div>
         <div className="navbar-links">
           <a href="#" className="navbar-link">Home</a>
