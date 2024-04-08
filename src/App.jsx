@@ -2,16 +2,17 @@ import React from 'react';
 import './App.css';
 import { HeaderBE } from './components/Header/HeaderBE';
 import { Navbar } from './components/Nav/Navbar';
+import { BodySup } from './components/Body/Body';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Navbar />
+      {/* Incluir Header aqui */}
       <HeaderBE />
-      <div className="main-content">
-        <h1>What is Lorem Ipsum?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse expedita consequatur ratione voluptatem debitis saepe quaerat porro, impedit ipsa explicabo voluptatum corporis numquam possimus, eveniet accusantium eaque! Vero, quae ab!</p>
-      </div>
+      {/* Incluir Main aqui */}
+      <BodySup />
+      {/* Incluir Sections aqui */}
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #333333;
+    background-color: #1b1b1f;
+    border-radius: 8px;
+  }
+  
+  .main-content-h1 {
+    font-size: 3.5rem;
+    text-align: end;
+  }
+  
+  .main-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }

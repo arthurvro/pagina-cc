@@ -1,11 +1,8 @@
-import logoVit from './logoVit.svg';
+import'logo-shadow.png';
 
-const Logo = () => {
+export function Logo() {
 
     return (
-    <img src={logoVit} alt="logo-vit" />
-
+    <img src="logo-shadow.png" alt="logo-w-shadow" />
     );
 }
-
-export default Logo;

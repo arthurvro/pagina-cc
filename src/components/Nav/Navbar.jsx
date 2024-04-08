@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageIcon } from '../Assets/headerIcon';
+import { PageIcon } from '../Assets/HeaderIcon/headerIcon';
 import './Navbar.css';
 
 export function Navbar() {
